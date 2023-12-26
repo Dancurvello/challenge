@@ -8,12 +8,12 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   border-radius: 8px;
   padding: 16px;
-  background-color: #fff; /* Adicionei um fundo branco para melhor visibilidade */
+  background-color: #fff;
 }
 
 .modal-button {
   display: inline-block;
-  margin-right: 10px; /* Adiciona espaçamento à direita dos botões */
+  margin-right: 10px; 
   padding: 10px 15px;
   text-decoration: none;
   color: #fff;
@@ -21,7 +21,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "Poppins", sans-serif; /* Substitua 'Poppins' pela fonte desejada */
+  font-family: "Poppins", sans-serif; 
 }
 
 .modal-button:hover {
