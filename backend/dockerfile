@@ -1,0 +1,9 @@
+FROM openjdk:17-alpine
+
+WORKDIR /app
+
+COPY target/backend-*.jar app.jar
+
+RUN mkdir -p META-INF && echo "Main-Class: org.example.Main" > META-INF/MANIFEST.MF
+
+CMD ["java", "-jar", "app.jar"]
