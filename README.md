@@ -3,7 +3,7 @@
 <h1 align="center">Aplicação Frontend e Backend | Desafio Técnico </h1>
 
 <br>
-<h2>Demonstração em produção (frontend, ACESSE:</h2> <a traget="_blank" href="https://challengefrontendstefanini.vercel.app/">https://challengefrontendstefanini.vercel.app/</a>
+<h2>Demonstração em produção (frontend), ACESSE:</h2> <a traget="_blank" href="https://challengefrontendstefanini.vercel.app/">https://challengefrontendstefanini.vercel.app/</a>
 
 <br>
 <br>
