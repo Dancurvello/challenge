@@ -48,6 +48,33 @@
 
 <br>
 
+<br>
+
+<a name="iniciarProjetodocker">
+<h1>Iniciando com docker</h1> <br>
+
+<br> Acessar via Docker (precisa instalar o docker):
+<br> Passo 1: git clone https://github.com/Dancurvello/challenge.git
+<br> Passo 2: entre no diretório clonado
+<br> Passo 3: docker-compose build
+<br> Passo 4: docker-compose up
+
+<br>
+OBS: Pode ser que tenha problemas de testar o backend via docker, pois o container pode encessar automaticamente
+caso ele não detecte um input do usuário (Sugiro acessar via modo convencional, sem docker)
+
+<a name="iniciarProjetodefault">
+<h1>Iniciando sem docker</h1> <br>
+
+Acessar via clone convencional do repositório (precisa instalar java, node e git)
+<br> Passo 1: git clone https://github.com/Dancurvello/challenge.git
+<br> Passo 2: entre no diretório clonado
+<br> Passo 3: escolha qual aplicação você quer testar (frontend ou backend) <br>
+     Passo 3.1: frontend - "npm install" e depois "npm start" <br>
+     Passo 3.2: backend - abra uma IDE e rode a aplicação backend <br>
+
+
+
 
 
 
