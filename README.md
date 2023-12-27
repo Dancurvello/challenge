@@ -1,4 +1,5 @@
 <br>
+![fibonacci](https://github.com/Dancurvello/challenge/assets/71042773/8f904df6-73f3-45f7-aeb8-d0686caa74ff)
 
 <h1 align="center">Aplicação Frontend e Backend | Desafio Técnico </h1>
 
