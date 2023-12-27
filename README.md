@@ -21,6 +21,7 @@
 **<p>Backend.</p>**
 <p>No desafio do backend foi pedido 2 soluções: 1 - Fibonacci e 2 - {aguardando retorno do Emerson}</p>
 <br>
+
 **<p>Frontend.</p>**
 <p>No desafio do frontend foi pedido 2 soluções: 1 - Quebra de linha e 2 - Preenchimento obrigatório</p>
 
@@ -28,6 +29,7 @@
 <br>
 
 <a name="tecnologias">
+<h1>Tecnologias usadas </h1>
 
 ### Backend: 
 - [Java 17]
