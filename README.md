@@ -3,6 +3,10 @@
 <h1 align="center">Aplicação Frontend e Backend | Desafio Técnico </h1>
 
 <br>
+<br>
+<img src="/assetstoreadme/fibonacci.png" alt="" width="100%">
+<img src="/assetstoreadme/homepage.png" alt="" width="100%">
+<img src="/assetstoreadme/breakline.png" alt="" width="100%">
 
 <h1>Sumário</h1>
 <ul>
