@@ -3,6 +3,9 @@
 <h1 align="center">Aplicação Frontend e Backend | Desafio Técnico </h1>
 
 <br>
+<h2>Demonstração em produção (frontend, ACESSE:</h2> <a traget="_blank" href="https://challengefrontendstefanini.vercel.app/">https://challengefrontendstefanini.vercel.app/</a>
+
+<br>
 <br>
 <img src="/assetstoreadme/fibonacci.png" alt="" width="100%">
 <img src="/assetstoreadme/homepage.png" alt="" width="100%">
@@ -60,7 +63,7 @@
 <br> Passo 4: docker-compose up
 
 <br>
-OBS: Pode ser que tenha problemas de testar o backend via docker, pois o container pode encessar automaticamente
+OBS: Pode ser que tenha problemas de testar o backend via docker, pois o container pode encerrar automaticamente
 caso ele não detecte um input do usuário (Sugiro acessar via modo convencional, sem docker)
 
 <a name="iniciarProjetodefault">
