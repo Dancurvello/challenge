@@ -15,6 +15,7 @@
 <ul>
   <li><a href="#descricao">Descrição do projeto</a></li>
   <li><a href="#tecnologias">Tecnologias usadas</a></li>
+  <li><a href="#fluxo">fluxo do projeto</a></li>
   <li><a href="#iniciarProjetodocker">Como iniciar o projeto com Docker</a></li>
   <li><a href="#iniciarProjetodefault">Como iniciar o projeto sem docker</a></li>
   <li><a href="#consideracoes">Considerações Finais</a></li>
@@ -35,6 +36,7 @@
 
 <br>
 
+
 <a name="tecnologias">
 <h1>Tecnologias usadas </h1>
 
@@ -51,10 +53,39 @@
 
 <br>
 
-<br>
+
+
+<a name="fluxo">
+<h1>Fluxo do projeto</h1>
+
+**<p>Backend - Fibonacci.</p>**
+
+Classe Main (package org.example):
+
+Contém o método main, que é o ponto de entrada do programa.
+Exibe uma mensagem de boas-vindas.
+Verifica se está sendo executado em um ambiente Docker (ignorando detalhes sobre Docker).
+Métodos dockerLogic() e defaultLogic():
+
+Ambos solicitam ao usuário que insira o número máximo para a sequência de Fibonacci usando o método readUserInput.
+Chamam o método calcularFibonacci da classe serviceFibonacci passando o número máximo como argumento.
+Método readUserInput(String prompt):
+
+Aceita uma mensagem de prompt como argumento.
+Usa a classe Scanner para obter a entrada do usuário, seja a partir do console ou do terminal interativo.
+Classe serviceFibonacci (package org.example.service):
+
+Contém o método calcularFibonacci(int maxNumero) que calcula e exibe a sequência de Fibonacci até o número máximo especificado.
+Utiliza um loop while para calcular e imprimir os termos da sequência.
+Comunicação entre Main e serviceFibonacci:
+
+Main chama os métodos dockerLogic() ou defaultLogic(), dependendo do ambiente.
+Ambos os métodos chamam readUserInput para obter o número máximo do usuário.
+Em seguida, chamam calcularFibonacci da classe serviceFibonacci passando o número máximo como argumento.
+Este fluxo permite que a classe Main interaja com a classe serviceFibonacci, solicitando e passando informações necessárias para o cálculo e exibição da sequência de Fibonacci.
 
 <a name="iniciarProjetodocker">
-<h1>Iniciando com docker</h1> <br>
+<h1>Iniciando com docker</h1> 
 
 <br> Acessar via Docker (precisa instalar o docker):
 <br> Passo 1: git clone https://github.com/Dancurvello/challenge.git
