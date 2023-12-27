@@ -64,7 +64,7 @@ Classe Main (package org.example):
 
 Contém o método main, que é o ponto de entrada do programa.
 Exibe uma mensagem de boas-vindas.
-Verifica se está sendo executado em um ambiente Docker (ignorando detalhes sobre Docker).
+Verifica se está sendo executado em um ambiente Docker.
 Métodos dockerLogic() e defaultLogic():
 
 Ambos solicitam ao usuário que insira o número máximo para a sequência de Fibonacci usando o método readUserInput.
